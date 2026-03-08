@@ -5,7 +5,7 @@
   "description": "Rono Brian's Portfolio",
   "scripts": {
     "start": "webpack serve --mode development",
-    "build": "npx webpack --mode production"
+    "build": "node node_modules/webpack/bin/webpack.js --mode production"
   },
   "devDependencies": {
     "css-loader": "^6.8.1",
